@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{46F3C2D8-C190-2323-02D7-26814FA6F1EA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_4;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CF2_INSTALLED;CF_FORCE_MOBILE_MODE;USES_BILLING;UNITY_HAS_GOOGLEVR;ENABLE_DUCK_TYPING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor\ScriptConverter\ConvertedScript.cs" />
+     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor\ScriptConverter\ScriptBackup.cs" />
+     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Editor\ScriptConverter\ScriptConverter.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\AssetStoreProductUtility\AssetStoreProduct\Scripts\Editor\AssetStoreProductInspector.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Automators\Script\GlobalDefines\Editor\GlobalDefinesManagerWindow.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\ScriptableObject\Editor\AdvancedScriptableObjectInspector.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\MiniJSON\MiniJSON.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXBuildFile.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXBuildPhase.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXDictionary.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXFileReference.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXGroup.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXList.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXObject.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXParser.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXProject.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXSortedDictionary.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXVariantGroup.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\XCBuildConfiguration.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\XCConfigurationList.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\XCMod.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\XCProject.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\XCodePostProcess.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\ArrayDrawer\Editor\ArrayDrawer.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\EnumMask\Editor\EnumMaskFieldDrawer.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\InspectorButton\Editor\InspectorButtonDrawer.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\OnValueChange\Editor\ExecuteOnValueChangeDrawer.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\Popup\Editor\PopupAttributeDrawer.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\Regex\Editor\RegexDrawer.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\Editor\Helper\ArrayInspector.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\Editor\Uitlity\UnityEditorUtility.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Web\Demo\Scripts\Editor\DownloadTextureDemoInspector.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Zip\Editor\Zip.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Editor\Menu.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Editor\PostProcessBuild.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Editor\UninstallPlugin.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Editor\WelcomeTourWindow.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\AddonServices\Base\Editor\AddonServiceSettingsDrawerBase.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\AddonServices\SoomlaGrow\Settings\Editor\SoomlaGrowServiceSettingsDrawer.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Billing\DataTypes\Product\Editor\BillingProductDrawer.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\AddonServices\OneSignal\Settings\Editor\OneSignalServiceSettingsDrawer.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Internal\Simulators\AddressBook\Editor\EditorAddressBookInspector.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Internal\Simulators\GameServices\Core\Editor\EditorGameCenterInspector.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Internal\Simulators\Notification\Editor\EditorNotificationCenterInspector.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Internal\Simulators\Notification\Editor\EditorPushNotificationService.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Misc\ID\Editor\PlatformIDDrawer.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\NP\Editor\NPSettingsInspector.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Settings\Application\Editor\AddonServicesDrawer.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Settings\Application\Editor\MultiComponentFeatureDrawer.cs" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Legacy Shaders\BumpedSpecular_3.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Legacy Shaders\BumpedSpecular_2.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\RFPSP\Demo\Other\Terrain Assets\Trees Ambient-Occlusion\Billboard.shader" />
+     <None Include="Assets\KriptoFX\BloodFX\Shaders\Blood.shader" />
+     <None Include="Assets\RFPSP\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Plugins\Control-Freak-2\Samples\Demo-CFR\CFR-Demo-Installation-Guide.txt" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Basemap\Basemap.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Legacy Shaders\Diffuse_6.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Environments\Env3-Dessert\Desert_skybox\hw_sahara.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Readme.txt" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Environments\Env1-Grass\Grass_tex\mp_plains\license.txt" />
+     <None Include="Assets\GameAnalytics\Readme.txt" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\RFPSP\Shaders\DecalShader.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Unlit\Unlit_4.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Plugins\Control-Freak-2\Shaders\Sprites-SoftLight.shader" />
+     <None Include="Assets\Cinema Suite\Documents\CinemaThemesReadMe.txt" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Legacy Shaders\BumpedSpecular_4.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\RFPSP\Shaders\WaterShader.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\One Directional Light\Diffuse_3.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\One Directional Light\Bumped_2.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\cginc\T2M_ODL.cginc" />
+     <None Include="Assets\RFPSP\Image Effects\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Standard\Diffuse_6.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\One Directional Light\Diffuse_8.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Standard\Bumped_4.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Legacy Shaders\Bumped_2.shader" />
+     <None Include="Assets\Plugins\Control-Freak-2\Control-Freak-2-ReadMe.txt" />
+     <None Include="Assets\Plugins\Control-Freak-2\Shaders\Sprites-Additive.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Standard\Diffuse_5.shader" />
+     <None Include="Assets\Environments\Env1-Grass\Grass_tex\mp_plains\mp_plains.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Unlit\Unlit_2.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Legacy Shaders\Diffuse_2.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Standard\Bumped_3.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\cginc\T2M_Deferred.cginc" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Environments\Env2-Snow\Snow_tex\hw_arctic\hw_arctic.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Cinema Suite\Documents\CinemaThemesChangeLog.txt" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\RFPSP\Demo\Other\Water\Shaders\FXWaterBasicWithAlpha.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Standard\Bumped_2.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\cginc\T2M_Variables.cginc" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Standard\Diffuse_4.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\One Directional Light\Bumped_4.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Unlit\Unlit_7.shader" />
+     <None Include="Assets\RFPSP\Demo\Other\Water\Shaders\FX-Water Simple With Alpha.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Unlit\Unlit_6.shader" />
+     <None Include="Assets\KriptoFX\BloodFX\Readme.txt" />
+     <None Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\License.txt" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Legacy Shaders\Diffuse_5.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\One Directional Light\Diffuse_5.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\One Directional Light\Diffuse_7.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Thermal Vision\ReadMe.txt" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Legacy Shaders\Diffuse_3.shader" />
+     <None Include="Assets\Environments\Env2-Snow\Snow_tex\hw_arctic\license.txt" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Unlit\Unlit_5.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Legacy Shaders\Diffuse_8.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\One Directional Light\Diffuse_2.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Legacy Shaders\Diffuse_7.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Standard\Diffuse_2.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\RFPSP\Demo\Other\Terrain Assets\Trees Ambient-Occlusion\NewShader.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\VoxelBusters\NativePlugins\link.xml" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Standard\Diffuse_7.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\VoxelBusters\NativePlugins\XCodeModData.txt" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Standard\Diffuse_8.shader" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver.txt" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Standard\Diffuse_3.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Thermal Vision\Shader\Thermal Vision.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Plugins\Control-Freak-2\Samples\Shared-Assets\Fonts\FH-RedFive WTT\license.txt" />
+     <None Include="Assets\Cinema Suite\About\Editor\Resources\BaseProductInfo.xml" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\One Directional Light\Diffuse_6.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Unlit\Unlit_8.shader" />
+     <None Include="Assets\Environments\Env3-Dessert\Desert_skybox\license.txt" />
+     <None Include="Assets\KriptoFX\BloodFX\Shaders\BloodNoSmooth.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Legacy Shaders\Bumped_4.shader" />
+     <None Include="Assets\Environments\Env4-Forest\Forest_tex\hw_desertnight\license.txt" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\One Directional Light\Diffuse_4.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Legacy Shaders\Bumped_3.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\One Directional Light\Bumped_3.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\Plugins\Control-Freak-2\Shaders\Sprites-HardLight.shader" />
+     <None Include="Assets\Environments\Env1-Grass\Grass_tex\mp_plains\Plains Of Abraham.txt" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Environments\Env4-Forest\Forest_tex\hw_desertnight\hw_desertnight.shader" />
+     <None Include="Assets\RFPSP\Demo\Other\Terrain Assets\Trees Ambient-Occlusion\aaa.compute" />
+     <None Include="Assets\Cinema Suite\Cinema Themes\ReadMe.txt" />
+     <None Include="Assets\Standard Assets\VoxelBusters\NativePlugins\ReleaseNotes.txt" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Cinema Suite\Cinema Themes\Editor\Resources\CinemaThemesInstalledProductInfo.xml" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Legacy Shaders\Diffuse_4.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\cginc\T2M_Unlit.cginc" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Shaders\Unlit\Unlit_3.shader" />
+     <None Include="Assets\VacuumShaders\Terrain To Mesh\Packages\ReadMe.txt" />
+     <None Include="Assets\RFPSP\Image Effects\Effects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.IOSResolver">
+ <HintPath>D:/unityProj/DinoHunt/Assets/PlayServicesResolver/Editor/Google.IOSResolver.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver">
+ <HintPath>D:/unityProj/DinoHunt/Assets/PlayServicesResolver/Editor/Google.JarResolver.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandler">
+ <HintPath>D:/unityProj/DinoHunt/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ </Reference>
+ <Reference Include="VacuumShaders">
+ <HintPath>D:/unityProj/DinoHunt/Assets/VacuumShaders/Editor/VacuumShaders.dll</HintPath>
+ </Reference>
+ <Reference Include="VacuumShaders.TerrainToMeshVC">
+ <HintPath>D:/unityProj/DinoHunt/Assets/VacuumShaders/Terrain To Mesh/Editor/VacuumShaders.TerrainToMeshVC.dll</HintPath>
+ </Reference>
+ <Reference Include="VacuumShaders.TerrainToMesh_Editor">
+ <HintPath>D:/unityProj/DinoHunt/Assets/VacuumShaders/Terrain To Mesh/Editor/VacuumShaders.TerrainToMesh_Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="VacuumShaders.TerrainToMesh">
+ <HintPath>D:/unityProj/DinoHunt/Assets/VacuumShaders/Terrain To Mesh/Scripts/VacuumShaders.TerrainToMesh.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{B52E980B-3CE7-0FED-4872-A0A749DB3C20}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

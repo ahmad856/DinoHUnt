@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89aa10cdd49e949efad7c366f36fa247, type: 3}
+  m_Name: NPSettings
+  m_EditorClassIdentifier: 
+  m_lastOpenedDateString: 362f32372f323031382031323a30303a303020414d
+  m_applicationSettings:
+    m_supportedFeatures:
+      m_usesAddressBook: 0
+      m_usesBilling: 1
+      m_usesCloudServices: 0
+      m_usesGameServices: 0
+      m_mediaLibrary:
+        value: 0
+        usesCamera: 1
+        usesPhotoAlbum: 1
+      m_usesNetworkConnectivity: 0
+      m_notificationService:
+        value: 0
+        usesLocalNotification: 1
+        usesRemoteNotification: 1
+      m_usesSharing: 0
+      m_usesTwitter: 0
+      m_usesWebView: 0
+    m_iOS:
+      m_storeIdentifier: 
+      m_addressBookUsagePermissionDescription: 242850524f445543545f4e414d4529207573657320636f6e7461637473
+      m_cameraUsagePermissionDescription: 242850524f445543545f4e414d452920757365732063616d657261
+      m_photoAlbumUsagePermissionDescription: 242850524f445543545f4e414d452920757365732070686f746f206c696272617279
+    m_android:
+      m_storeIdentifier: 636f6d2e6d697a6f2e706c616e652e6c616e64696e67
+    m_supportedAddonServices:
+      m_usesSoomlaGrow: 0
+      m_usesOneSignal: 0
+  m_utilitySettings:
+    m_rateMyApp:
+      m_isEnabled: 0
+      m_title: 52617465205573
+      m_message: 5765206172652070617373696f6e61746520746f206272696e67206f75742074686520626573742067616d696e6720657870657269656e636520666f7220796f752e204120676f6f6420726174696e6720616c6f6e67207769746820796f757220666565646261636b206d6f7469766174657320757320746f20707574206d6f7265206566666f727473206f6e207175616c6974792e
+      m_showFirstPromptAfterHours: 1
+      m_successivePromptAfterHours: 1
+      m_successivePromptAfterLaunches: 3
+      m_rateItButtonText: 52617465204e6f77
+      m_remindMeLaterButtonText: 52656d696e64204c61746572
+      m_dontAskButtonText: 4e6f2c205468616e6b73
+  m_billingSettings:
+    m_products:
+    - m_name: 52656d6f766520416473
+      m_description: 496e204f7264657220546f2052656d6f766520416473
+      m_isConsumable: 0
+      m_price: 0
+      m_productIDs:
+      - m_platform: 0
+        m_value: 706c5f72656d6f76655f616473
+      - m_platform: 1
+        m_value: 706c5f72656d6f76655f616473
+      - m_platform: 2
+        m_value: 706c5f72656d6f76655f616473
+      m_developerPayload: 
+      m_iosProductId: 
+      m_androidProductId: 
+    m_iOS:
+      m_supportsReceiptValidation: 1
+      m_validateUsingServerURL: 
+    m_android:
+      m_publicKey: 4d494942496a414e42676b71686b6947397730424151454641414f43415138414d49494243674b43415145417171627a764b593132714745594c4f316363466b6e6c5233664e3152504f4e497363375170634a615153516575337044526937756f467a757245564348753361754c612b4c6d4f62754675496c6b3774456751694b4b39426654315a552b584f536346704f32694578786d55794b63397a6f6c765779396474544a686436537a4143554273636d4b70465a74354e34725872546b382f2b643056654b4b5a567935766a4874323557396d6964343255523357593467592b6a4a6a32617965547776366534563945304330506562672f437a6c4d7238616a44484c3267726d364a36796a787730746d336c516e492f654e6b6d666b4e503057436a4f304f43537a6d4c432f59505934706f5652774d6d6a694744774a4e32484e517959585352694969326848474d4b332b6341742f5254696c63507558726e5059625838342b46495147676e7673687154556b6f706876726e452f7151494441514142
+  m_addonServicesSettings: {}
